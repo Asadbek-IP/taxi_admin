@@ -92503,7 +92503,7 @@ n=A.aF(A.aIX(A.a([A.aKa(A.a(["a","b","c"],t.s),u.f),A.aJo(A.a([b.y],t._I))],t.bo
 m=A.a([],s)
 l=b.w
 if(l!=null)B.c.S(m,A.a([A.aNC(l,B.fg,200,300),B.B],s))
-else if(!f)B.c.S(m,A.a([A.aND("http://lideruz.uz/storage/partners/"+A.e(g.f),B.fg,200,300),B.B],s))
+else if(!f)B.c.S(m,A.a([A.aND("http://easytaxi.uz/storage/partners/"+A.e(g.f),B.fg,200,300),B.B],s))
 m.push(A.er(!1,B.Ac,B.i,k,k,k,k,k,new A.a73(h,a),k,k))
 i=A.a([i,B.B,r,B.B,q,B.B,p,B.B,o,B.B,A.cN(A.b4(A.a([n,B.y,A.aF(A.bK(m,B.k,k,B.hb,B.l),1)],s),B.k,B.m,B.l,k),300,k)],s)
 if(b.as===B.aG)B.c.S(i,A.a([B.B,B.cK],s))
@@ -93842,7 +93842,7 @@ m=A.b4(A.a([q,B.y,A.aF(A.hc(A.eh(!0,new A.cT(4,A.cE(16),B.ah),k,k,k,k,k,k,!0,k,k
 l=A.a([],o)
 q=b.as
 if(q!=null)B.c.S(l,A.a([A.aNC(q,B.fg,200,300),B.B],o))
-else if(!f)B.c.S(l,A.a([A.aND("http://lideruz.uz/storage/tariffs/"+A.e(g.z),B.fg,200,300),B.B],o))
+else if(!f)B.c.S(l,A.a([A.aND("http://easytaxi.uz/storage/tariffs/"+A.e(g.z),B.fg,200,300),B.B],o))
 l.push(A.er(!1,B.Ac,B.i,k,k,k,k,k,new A.a7Q(h,a),k,k))
 i=A.a([i,B.B,r,B.B,s,B.B,n,B.B,p,B.B,m,B.B,A.b4(A.a([A.aF(A.bK(l,B.k,k,B.hb,B.l),1),B.y,B.dj],o),B.k,B.m,B.l,k)],o)
 if(b.at===B.aG)B.c.S(i,A.a([B.B,B.cK],o))
