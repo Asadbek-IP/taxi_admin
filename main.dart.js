@@ -89042,7 +89042,7 @@ jX(){var s=0,r=A.C(t.YO),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$jX=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/car-types",null)),$async$jX)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/car-types",null)),$async$jX)
 case 7:m=b
 k=m
 k=A.aMA(B.t.aM(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w)))
@@ -89074,7 +89074,7 @@ s=p}while(true)switch(s){case 0:j=t.N
 i=A.af(["brand",a,"model",b],j,j)
 p=4
 s=7
-return A.v(n.a.r9(A.bS("https","easytaxi.uz","/api/admin/car-types",null),i),$async$zK)
+return A.v(n.a.r9(A.bS("http","easytaxi.uz","/api/admin/car-types",null),i),$async$zK)
 case 7:m=d
 j=m
 j=A.wB(B.t.aM(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w)))
@@ -89105,7 +89105,7 @@ s=p}while(true)switch(s){case 0:j=t.N
 i=A.af(["brand",b,"model",c],j,j)
 p=4
 s=7
-return A.v(n.a.X5(0,A.bS("https","easytaxi.uz","/api/admin/car-types/"+a,null),i),$async$BS)
+return A.v(n.a.X5(0,A.bS("http","easytaxi.uz","/api/admin/car-types/"+a,null),i),$async$BS)
 case 7:m=e
 j=m
 j=A.wB(B.t.aM(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w)))
@@ -89134,7 +89134,7 @@ amJ(a){var s=0,r=A.C(t.ux),q,p=2,o,n=this,m,l,k,j,i
 var $async$zV=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/car-types/"+a,null)),$async$zV)
+return A.v(n.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/car-types/"+a,null)),$async$zV)
 case 7:m=c
 k=m
 k=A.wB(B.t.aM(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w)))
@@ -89163,7 +89163,7 @@ wt(){var s=0,r=A.C(t.KH),q,p=2,o,n=this,m,l,k,j,i,h,g
 var $async$wt=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/drivers",null)),$async$wt)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/drivers",null)),$async$wt)
 case 7:m=b
 i=m
 l=A.aXQ(B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null))
@@ -89199,7 +89199,7 @@ i=t.N
 h=A.af(["status",j],i,i)
 p=4
 s=7
-return A.v(n.a.vV(A.bS("https","easytaxi.uz","/api/admin/drivers/"+a.a+"/activate",h)),$async$tV)
+return A.v(n.a.vV(A.bS("http","easytaxi.uz","/api/admin/drivers/"+a.a+"/activate",h)),$async$tV)
 case 7:m=d
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -89244,7 +89244,7 @@ i=b==null?null:b.length!==0
 if(i===!0){b.toString
 J.dh(m,"card_number",b)}p=4
 s=7
-return A.v(n.a.vV(A.bS("https","easytaxi.uz","/api/driver/register",m)),$async$z2)
+return A.v(n.a.vV(A.bS("http","easytaxi.uz","/api/driver/register",m)),$async$z2)
 case 7:l=a2
 b=l
 k=B.t.c7(0,A.bU(A.bT(b.e).c.a.h(0,"charset")).aM(0,b.w),null)
@@ -89279,7 +89279,7 @@ s=p}while(true)switch(s){case 0:h=t.N
 g=A.af(["number",b.b,"color",b.c,"count_seats",B.e.j(b.d),"manufacture_date",b.e,"type_id",B.e.j(b.r),"tariff_id",B.e.j(b.w)],h,h)
 p=4
 s=7
-return A.v(n.a.vV(A.bS("https","easytaxi.uz","/api/drivers/"+a+"/car",g)),$async$z0)
+return A.v(n.a.vV(A.bS("http","easytaxi.uz","/api/drivers/"+a+"/car",g)),$async$z0)
 case 7:m=d
 h=m
 l=B.t.c7(0,A.bU(A.bT(h.e).c.a.h(0,"charset")).aM(0,h.w),null)
@@ -89312,7 +89312,7 @@ amK(a){var s=0,r=A.C(t.ux),q,p=2,o,n=this,m,l,k,j,i
 var $async$zW=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/drivers/"+a.a,null)),$async$zW)
+return A.v(n.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/drivers/"+a.a,null)),$async$zW)
 case 7:m=c
 k=m
 k=A.wB(B.t.aM(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w)))
@@ -89357,7 +89357,7 @@ c=t.N
 m=A.af(["name",a,"surname",i,"phone",h,"address",g,"birth_date",f,"license",e,"card_number",d],c,c)
 p=4
 s=7
-return A.v(n.a.rd(0,A.bS("https","easytaxi.uz","/api/admin/drivers/"+a1.a,m)),$async$BU)
+return A.v(n.a.rd(0,A.bS("http","easytaxi.uz","/api/admin/drivers/"+a1.a,m)),$async$BU)
 case 7:l=a3
 a=l
 k=B.t.c7(0,A.bU(A.bT(a.e).c.a.h(0,"charset")).aM(0,a.w),null)
@@ -89389,7 +89389,7 @@ s=p}while(true)switch(s){case 0:i=t.N
 h=A.af(["number",a.b,"color",a.c,"count_seats",B.e.j(a.d),"manufacture_date",a.e,"type_id",B.e.j(a.r),"tariff_id",B.e.j(a.w)],i,i)
 p=4
 s=7
-return A.v(n.a.rd(0,A.bS("https","easytaxi.uz","/api/admin/cars/"+a.a,h)),$async$BR)
+return A.v(n.a.rd(0,A.bS("http","easytaxi.uz","/api/admin/cars/"+a.a,h)),$async$BR)
 case 7:m=c
 i=m
 l=B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null)
@@ -89424,7 +89424,7 @@ i=t.N
 m=A.af(["sum",""+b,"user_id",""+g],i,i)
 p=4
 s=7
-return A.v(n.a.r9(A.bS("https","easytaxi.uz","/api/admin/drivers/"+a+"/add-sum",null),m),$async$z_)
+return A.v(n.a.r9(A.bS("http","easytaxi.uz","/api/admin/drivers/"+a+"/add-sum",null),m),$async$z_)
 case 7:l=d
 g=l
 k=B.t.c7(0,A.bU(A.bT(g.e).c.a.h(0,"charset")).aM(0,g.w),null)
@@ -89453,7 +89453,7 @@ jX(){var s=0,r=A.C(t.YO),q,p=2,o,n=this,m,l,k,j,i,h,g
 var $async$jX=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","api/car-types",null)),$async$jX)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","api/car-types",null)),$async$jX)
 case 7:m=b
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -89483,7 +89483,7 @@ kR(){var s=0,r=A.C(t.e9),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$kR=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","api/tariffs",null)),$async$kR)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","api/tariffs",null)),$async$kR)
 case 7:m=b
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -89515,7 +89515,7 @@ aqC(a0,a1){var s=0,r=A.C(t.DF),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$vw=A.x(function(a2,a3){if(a2===1){o=a3
 s=p}while(true)switch(s){case 0:d=t.N
 c=A.af(["username",a0,"password",a1,"role","1"],d,d)
-b=A.bS("https","easytaxi.uz","/api/login",null)
+b=A.bS("http","easytaxi.uz","/api/login",null)
 p=4
 s=7
 return A.v(n.a.r9(b,c),$async$vw)
@@ -89560,7 +89560,7 @@ h=A.af(["name","Admin","username",a,"phone","0"],i,i)
 if(b.length!==0)J.dh(h,"password",b)
 p=4
 s=7
-return A.v(n.a.rd(0,A.bS("https","easytaxi.uz","/api/admin/users/1",h)),$async$BV)
+return A.v(n.a.rd(0,A.bS("http","easytaxi.uz","/api/admin/users/1",h)),$async$BV)
 case 7:m=d
 i=m
 l=B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null)
@@ -89590,7 +89590,7 @@ dI(){var s=0,r=A.C(t._b),q,p=2,o,n=this,m,l,k,j
 var $async$dI=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/districts",null)),$async$dI)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/districts",null)),$async$dI)
 case 7:m=b
 l=m
 l=J.eo(t.j.a(J.a9(B.t.c7(0,A.bU(A.bT(l.e).c.a.h(0,"charset")).aM(0,l.w),null),"data")),new A.aiH(),t.o).bX(0)
@@ -89627,7 +89627,7 @@ wv(){var s=0,r=A.C(t.b),q,p=2,o,n=this,m,l,k,j
 var $async$wv=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/order-extra",null)),$async$wv)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/order-extra",null)),$async$wv)
 case 7:m=b
 l=m
 l=J.a9(B.t.c7(0,A.bU(A.bT(l.e).c.a.h(0,"charset")).aM(0,l.w),null),"data")
@@ -89654,7 +89654,7 @@ ZT(a){var s=0,r=A.C(t.b),q,p=2,o,n=this,m,l,k,j,i
 var $async$wQ=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.rd(0,A.bS("https","easytaxi.uz","/api/order-extra",A.af(["pay",a],t.N,t.z))),$async$wQ)
+return A.v(n.a.rd(0,A.bS("http","easytaxi.uz","/api/order-extra",A.af(["pay",a],t.N,t.z))),$async$wQ)
 case 7:m=c
 k=m
 k=J.a9(B.t.c7(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w),null),"msg")
@@ -89685,7 +89685,7 @@ Zc(a){var s=0,r=A.C(t.Gq),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$rF=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/users",A.af(["role",a?"3":"2"],t.N,t.z))),$async$rF)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/users",A.af(["role",a?"3":"2"],t.N,t.z))),$async$rF)
 case 7:m=c
 j=m
 l=A.aZv(B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null))
@@ -89720,7 +89720,7 @@ h=t.N
 g=A.af(["name",a.b,"username",a.c,"password",b,"phone",a.d,"district_id",j,"role",i],h,h)
 p=4
 s=7
-return A.v(n.a.r9(A.bS("https","easytaxi.uz","/api/admin/users",null),g),$async$u0)
+return A.v(n.a.r9(A.bS("http","easytaxi.uz","/api/admin/users",null),g),$async$u0)
 case 7:m=e
 j=m
 j=A.wB(B.t.aM(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w)))
@@ -89753,7 +89753,7 @@ h=A.af(["id",B.e.j(j),"name",a.b,"username",a.c,"phone",a.d,"role",B.e.j(a.r),"d
 if(b!=null)J.dh(h,"password",b)
 p=4
 s=7
-return A.v(n.a.r9(A.bS("https","easytaxi.uz","/api/admin/users/"+j,null),h),$async$wg)
+return A.v(n.a.r9(A.bS("http","easytaxi.uz","/api/admin/users/"+j,null),h),$async$wg)
 case 7:m=d
 j=m
 j=A.wB(B.t.aM(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w)))
@@ -89782,7 +89782,7 @@ amL(a){var s=0,r=A.C(t.ux),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$uE=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/users/"+a.a,null)),$async$uE)
+return A.v(n.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/users/"+a.a,null)),$async$uE)
 case 7:m=c
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -89812,7 +89812,7 @@ wm(){var s=0,r=A.C(t.Xs),q,p=2,o,n=this,m,l,k,j,i
 var $async$wm=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/get-all-orders",null)),$async$wm)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/get-all-orders",null)),$async$wm)
 case 7:m=b
 k=m
 k=A.aZw(B.t.aM(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w)))
@@ -89842,7 +89842,7 @@ wy(){var s=0,r=A.C(t.No),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$wy=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/partners",null)),$async$wy)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/partners",null)),$async$wy)
 case 7:m=b
 j=m
 l=A.aZD(B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null))
@@ -89874,7 +89874,7 @@ s=p}while(true)switch(s){case 0:i=a.b
 h=t.N
 g=A.af(["name",i,"username",a.c,"password",b,"address",J.b2(a.d),"phone",J.b2(a.e),"start_time",J.b2(a.r),"end_time",J.b2(a.w),"latitude",J.b2(a.x),"longitude",J.b2(a.y),"district_id",B.e.j(a.z)],h,h)
 p=4
-n=A.akx("POST",A.bS("https","easytaxi.uz","/api/admin/partners",g))
+n=A.akx("POST",A.bS("http","easytaxi.uz","/api/admin/partners",g))
 n.y.push(A.akv("img",c,A.po("image","jpeg",null),i+".jpg"))
 n.r.S(0,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],h,h))
 s=7
@@ -89937,7 +89937,7 @@ i=t.T
 h=""+a.a
 s=a0!=null?7:9
 break
-case 7:m=A.akx("POST",A.bS("https","easytaxi.uz","/api/admin/partners/"+h,e))
+case 7:m=A.akx("POST",A.bS("http","easytaxi.uz","/api/admin/partners/"+h,e))
 m.y.push(A.akv("img",a0,A.po("image","jpeg",null),d+".jpg"))
 m.r.S(0,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],f,f))
 s=10
@@ -89951,7 +89951,7 @@ n=B.t.c7(0,A.bU(A.bT(f.e).c.a.h(0,"charset")).aM(0,f.w),null)
 s=8
 break
 case 9:s=12
-return A.v(A.b67(A.bS("https","easytaxi.uz","/api/admin/partners/"+h,e),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],f,f)),$async$rt)
+return A.v(A.b67(A.bS("http","easytaxi.uz","/api/admin/partners/"+h,e),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],f,f)),$async$rt)
 case 12:j=a2
 f=j
 n=B.t.c7(0,A.bU(A.bT(f.e).c.a.h(0,"charset")).aM(0,f.w),null)
@@ -89981,7 +89981,7 @@ amM(a){var s=0,r=A.C(t.X7),q,p=2,o,n=this,m,l,k,j,i
 var $async$zX=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/partners/"+a,null)),$async$zX)
+return A.v(n.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/partners/"+a,null)),$async$zX)
 case 7:m=c
 k=m
 l=B.t.c7(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w),null)
@@ -90010,7 +90010,7 @@ var $async$wA=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.v(n.a.ne(0,A.bS("https","easytaxi.uz","/api/admin/points",null),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],k,k)),$async$wA)
+return A.v(n.a.ne(0,A.bS("http","easytaxi.uz","/api/admin/points",null),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],k,k)),$async$wA)
 case 7:m=b
 k=m
 l=B.t.c7(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w),null)
@@ -90043,7 +90043,7 @@ s=p}while(true)switch(s){case 0:j=t.N
 i=A.af(["id",B.e.j(a.a),"name",a.b,"latitude",B.d.j(a.c),"longitude",B.d.j(a.d),"address",a.e],j,j)
 p=4
 s=7
-return A.v(n.a.WV(A.bS("https","easytaxi.uz","/api/admin/points",null),i,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$zM)
+return A.v(n.a.WV(A.bS("http","easytaxi.uz","/api/admin/points",null),i,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$zM)
 case 7:m=c
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -90074,7 +90074,7 @@ i=t.N
 h=A.af(["id",B.e.j(j),"name",a.b,"latitude",B.d.j(a.c),"longitude",B.d.j(a.d),"address",a.e],i,i)
 p=4
 s=7
-return A.v(n.a.X6(0,A.bS("https","easytaxi.uz","/api/admin/points/"+j,null),h,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],i,i)),$async$BW)
+return A.v(n.a.X6(0,A.bS("http","easytaxi.uz","/api/admin/points/"+j,null),h,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],i,i)),$async$BW)
 case 7:m=c
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -90103,7 +90103,7 @@ var $async$zY=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.v(n.a.zU(0,A.bS("https","easytaxi.uz","/api/admin/points/"+a.a,null),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],k,k)),$async$zY)
+return A.v(n.a.zU(0,A.bS("http","easytaxi.uz","/api/admin/points/"+a.a,null),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],k,k)),$async$zY)
 case 7:m=c
 k=m
 l=B.t.c7(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w),null)
@@ -90134,7 +90134,7 @@ dI(){var s=0,r=A.C(t._b),q,p=2,o,n=this,m,l,k,j
 var $async$dI=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/districts",null)),$async$dI)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/districts",null)),$async$dI)
 case 7:m=b
 l=m
 l=J.eo(t.j.a(J.a9(B.t.c7(0,A.bU(A.bT(l.e).c.a.h(0,"charset")).aM(0,l.w),null),"data")),new A.anL(),t.o).bX(0)
@@ -90162,7 +90162,7 @@ ajT(a,b,c){var s=0,r=A.C(t.b),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$z8=A.x(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.vV(A.bS("https","easytaxi.uz","/api/admin/districts",A.af(["name",a,"latitude",B.d.j(b),"longitude",B.d.j(c)],t.N,t.z))),$async$z8)
+return A.v(n.a.vV(A.bS("http","easytaxi.uz","/api/admin/districts",A.af(["name",a,"latitude",B.d.j(b),"longitude",B.d.j(c)],t.N,t.z))),$async$z8)
 case 7:m=e
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -90193,7 +90193,7 @@ aue(a,b,c,d){var s=0,r=A.C(t.b),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$BX=A.x(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.rd(0,A.bS("https","easytaxi.uz","/api/admin/districts/"+a,A.af(["name",b,"latitude",B.d.j(c),"longitude",B.d.j(d)],t.N,t.z))),$async$BX)
+return A.v(n.a.rd(0,A.bS("http","easytaxi.uz","/api/admin/districts/"+a,A.af(["name",b,"latitude",B.d.j(c),"longitude",B.d.j(d)],t.N,t.z))),$async$BX)
 case 7:m=f
 j=m
 l=B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null)
@@ -90224,7 +90224,7 @@ amO(a){var s=0,r=A.C(t.H),q=1,p,o=this,n,m
 var $async$zZ=A.x(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.v(o.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/districts/"+a,null)),$async$zZ)
+return A.v(o.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/districts/"+a,null)),$async$zZ)
 case 6:q=1
 s=5
 break
@@ -90248,7 +90248,7 @@ s=p}while(true)switch(s){case 0:p=4
 j=t.N
 m=A.af(["district_id",B.e.j(a)],j,j)
 s=7
-return A.v(n.a.ne(0,A.bS("https","easytaxi.uz","/api/admin/daily-income",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wp)
+return A.v(n.a.ne(0,A.bS("http","easytaxi.uz","/api/admin/daily-income",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wp)
 case 7:l=c
 i=l
 k=B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null)
@@ -90280,7 +90280,7 @@ s=p}while(true)switch(s){case 0:p=4
 j=t.N
 m=A.af(["district_id",B.e.j(a)],j,j)
 s=7
-return A.v(n.a.ne(0,A.bS("https","easytaxi.uz","/api/admin/daily-clients",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wo)
+return A.v(n.a.ne(0,A.bS("http","easytaxi.uz","/api/admin/daily-clients",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wo)
 case 7:l=c
 i=l
 k=B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null)
@@ -90312,7 +90312,7 @@ s=p}while(true)switch(s){case 0:p=4
 j=t.N
 m=A.af(["district_id",B.e.j(a)],j,j)
 s=7
-return A.v(n.a.ne(0,A.bS("https","easytaxi.uz","/api/admin/daily-orders",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wq)
+return A.v(n.a.ne(0,A.bS("http","easytaxi.uz","/api/admin/daily-orders",a===0?null:m),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],j,j)),$async$wq)
 case 7:l=c
 i=l
 k=B.t.c7(0,A.bU(A.bT(i.e).c.a.h(0,"charset")).aM(0,i.w),null)
@@ -90342,7 +90342,7 @@ kR(){var s=0,r=A.C(t.e9),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$kR=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/tariffs",null)),$async$kR)
+return A.v(n.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/tariffs",null)),$async$kR)
 case 7:m=b
 j=m
 l=A.aPv(B.t.c7(0,A.bU(A.bT(j.e).c.a.h(0,"charset")).aM(0,j.w),null))
@@ -90374,7 +90374,7 @@ s=p}while(true)switch(s){case 0:i=a.b
 h=t.N
 g=A.af(["name",i,"client",B.e.j(a.c),"minute",B.e.j(a.d),"km",B.e.j(a.e),"vip",B.e.j(a.f),"min_pay",B.e.j(a.r),"out_city",B.e.j(a.w),"min_km",B.e.j(a.x),"description",a.y,"district_id",B.e.j(a.Q)],h,h)
 p=4
-n=A.akx("POST",A.bS("https","easytaxi.uz","/api/admin/tariffs",g))
+n=A.akx("POST",A.bS("http","easytaxi.uz","/api/admin/tariffs",g))
 n.y.push(A.akv("img",b,A.po("image","jpeg",null),i+".jpg"))
 n.r.S(0,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(t.T).a.a,"token_key")))],h,h))
 s=7
@@ -90416,7 +90416,7 @@ i=t.T
 h=""+a.a
 s=b!=null?7:9
 break
-case 7:m=A.akx("POST",A.bS("https","easytaxi.uz","/api/admin/tariffs/"+h,d))
+case 7:m=A.akx("POST",A.bS("http","easytaxi.uz","/api/admin/tariffs/"+h,d))
 m.y.push(A.akv("img",b,A.po("image","jpeg",null),f+".jpg"))
 m.r.S(0,A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],e,e))
 s=10
@@ -90430,7 +90430,7 @@ n=B.t.c7(0,A.bU(A.bT(f.e).c.a.h(0,"charset")).aM(0,f.w),null)
 s=8
 break
 case 9:s=12
-return A.v(A.b6c(A.bS("https","easytaxi.uz","/api/admin/tariffs/"+h,d),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],e,e)),$async$ru)
+return A.v(A.b6c(A.bS("http","easytaxi.uz","/api/admin/tariffs/"+h,d),A.af(["Authorization","Bearer "+A.e(A.bw(J.a9($.aL().$1$0(i).a.a,"token_key")))],e,e)),$async$ru)
 case 12:j=a1
 f=j
 n=B.t.c7(0,A.bU(A.bT(f.e).c.a.h(0,"charset")).aM(0,f.w),null)
@@ -90458,7 +90458,7 @@ amP(a){var s=0,r=A.C(t.X7),q,p=2,o,n=this,m,l,k,j,i
 var $async$A_=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(n.a.o4(0,A.bS("https","easytaxi.uz","/api/admin/tariffs/"+a,null)),$async$A_)
+return A.v(n.a.o4(0,A.bS("http","easytaxi.uz","/api/admin/tariffs/"+a,null)),$async$A_)
 case 7:m=c
 k=m
 l=B.t.c7(0,A.bU(A.bT(k.e).c.a.h(0,"charset")).aM(0,k.w),null)
@@ -90485,7 +90485,7 @@ A.A4.prototype={
 wD(){var s=0,r=A.C(t.c6),q,p=this,o
 var $async$wD=A.x(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:s=3
-return A.v(p.a.hW(0,A.bS("https","easytaxi.uz","/api/admin/transactions",null)),$async$wD)
+return A.v(p.a.hW(0,A.bS("http","easytaxi.uz","/api/admin/transactions",null)),$async$wD)
 case 3:o=b
 q=J.aIt(J.eo(J.a9(B.t.c7(0,A.bU(A.bT(o.e).c.a.h(0,"charset")).aM(0,o.w),null),"data"),new A.avN(),t.uj))
 s=1
